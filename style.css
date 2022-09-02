@@ -1,0 +1,128 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(31, 160, 121);
+}
+
+.guppy1-image{
+
+    background-image: linear-gradient(
+        rgba(0,0,0,0),
+        rgba(0,0,0,0)) ,
+        url(https://image.shutterstock.com/image-photo/multi-color-poecilia-reticulataon-nature-260nw-2032379642.jpg);
+        min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+}
+.guppy1-text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.guppy1-text-background{
+    background-color: black;
+    color:white;
+    padding: 10px 15px;
+}
+.sub {
+    padding: 50px 75px;
+    color: antiquewhite;
+    text-align: center;
+    background-color: black;
+}
+.sub h1 {
+text-transform: uppercase;
+font-weight: 400;
+
+}
+.sub p {
+    font-size: 18px;
+
+}
+
+.guppy2-image{
+    background-image: linear-gradient(
+       rgba(0,0,0,0),
+       rgba(0,0,0,0)),
+    url(https://i.ytimg.com/vi/iKao1a90Lfk/maxresdefault.jpg);
+    min-height:400px;
+    position: relative;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+}
+.guppy2-text {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.guppy2-text-background {
+    background-color: black;
+    /* font-weight: */
+    color:white;
+    padding: 10px 15px;
+}
+
+.breeding-image{
+    background-image:linear-gradient(
+        rgba(0,0,0,0),
+        rgba(0,0,0,0)) ,
+        url(https://a-z-animals.com/media/guppy-2.jpg);
+       min-height:400px;
+       position: relative;
+       background-position: top center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       display: flex;
+    }
+
+    .footer-image{
+        background-image: linear-gradient(
+            rgba(0,0,0,0),
+            rgba(0,0,0,0)),
+         url(https://urbanfishkeeping.com/wp-content/uploads/2020/12/Untitled-design-18-1.jpg);
+        min-height: 100%;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+    }
+    .footer-text{
+       
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: rgb(202, 46, 46);
+        font-size: 40px;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        font-weight: 600;
+        background-color: black;
+    }
+
+    
+   
